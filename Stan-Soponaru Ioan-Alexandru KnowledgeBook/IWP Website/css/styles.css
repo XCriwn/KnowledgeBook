@@ -1,0 +1,197 @@
+ body {
+     background-image: url('../img/background1.jpg');
+ }
+
+ .header {
+     text-align: center;
+     vertical-align: middle;
+ }
+
+ .footer {
+     text-align: center;
+     vertical-align: middle;
+ }
+
+ .header a {
+     padding-top: 40px;
+     padding: 10px;
+     color: rgb(92 69 94);
+     font-size: 30px;
+     display: inline-block;
+ }
+
+ .header a:hover {
+     color: rgb(74, 53, 75);
+     background-color: rgb(222, 222, 222);
+     font-size: 30px;
+     font-style: italic;
+     font-weight: 600;
+ }
+
+ .footer a {
+
+     padding: 10px;
+     color: rgb(92 69 94);
+     font-size: 20px;
+     display: inline-block;
+ }
+
+ .footer p {
+     padding-top: 40px;
+     padding: 10px;
+     color: rgb(199, 3, 217);
+     font-size: 20px;
+
+ }
+
+ .content {
+
+     background-color: rgb(247, 241, 241);
+     min-height: 700px;
+     text-align: center;
+     align-content: center;
+     position: relative;
+ }
+
+
+
+ .content h1 {
+     padding-left: 10px;
+ }
+
+ .content p {
+     font-size: 20px;
+     font-family: sans-serif;
+
+     border: 2px;
+
+ }
+
+ .home_text {}
+
+ .login {
+
+     background-color: antiquewhite;
+     height: fit-content;
+     /*width: fit-content;
+    min-width: 300px;
+    min-height: 300px;*/
+     text-align: center;
+     border-style: groove;
+     border-width: 1em;
+     position: relative;
+ }
+
+ .aside {
+     float: right;
+     background-color: red;
+     width: 100px;
+ }
+
+ .aside_left {
+     float: left;
+ }
+
+ .aside_left img,
+ .aside img {
+     width: 200px;
+     padding: 20px;
+ }
+
+ img {
+     width: 200px;
+ }
+
+ .login input,
+ .login button {
+     width: 300px;
+     padding: 5px;
+ }
+
+ .register {
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .register h1 {
+     text-align: center;
+     font-size: 50px;
+ }
+
+ .profile_links {
+     font-size: 30px;
+     color: blueviolet;
+     display: inline;
+ }
+
+ .vl {
+     border-left: 6px solid green;
+     height: 50px;
+
+ }
+
+ .welcome {
+     color: purple;
+     text-decoration: none;
+ }
+
+ .welcome a:hover {
+     background-color: azure;
+     color: rgb(174, 4, 174);
+     text-decoration: none;
+ }
+
+ .titlu_articol {
+     text-align: left;
+     background-color: lightgrey;
+     font-size: 1.5rem;
+     font-style: italic;
+     font-weight: 600;
+ }
+
+ .content .semnatura {
+     font-size: 1rem;
+     text-align: right;
+ }
+
+ .content .body_article {
+     font-size: 1.35001rem;
+     text-align: justify;
+ }
+
+ .articole {}
+
+ .align_left {
+     text-align: left;
+ }
+
+ .align_right {
+     text-align: right;
+ }
+
+ .align_right2 {
+     text-align: right;
+     display: block;
+     float: right;
+ }
+
+ .textarea {
+     width: 600px;
+     font-size: 24px;
+ }
+
+ .header .culoare_li {
+     background-color: #d5ffea;
+     color: rgb(74 74 74 / 82%);
+     font-weight: 600;
+     border-radius: 20px;
+ }
+
+ .culoare_li:hover {
+     background-color: #99bbaa;
+     color: rgba(45, 43, 43, 0.82);
+ }
+
+ .nelogat {
+     background-color: rgb(255, 221, 221) !important;
+ }
